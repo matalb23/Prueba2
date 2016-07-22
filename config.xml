@@ -4,7 +4,7 @@
 		id				= "com.simpleappsgn.icountertap" 
 		version			= "2.0.0">
 		
-	<name>GetMan</name>
+	<name>GetMan2</name>
 	
 	<description>Hace un get de un json.</description>
 
@@ -16,7 +16,11 @@
 		<preference name="phonegap-version" value="cli-5.1.1" />
 	</platform>
 	<plugin name="org.apache.cordova.network-information" spec="0.2.15" source="pgb" />
-	  
+	
+	<allow-navigation href="*" />
+	<allow-intent href="*" />
+	<access origin="*" />
+	
 	<supports-screens android:anyDensity="true" android:resizeable="true"
 		android:smallScreens="true"
 		android:normalScreens="true"
